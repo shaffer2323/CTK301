@@ -1,0 +1,25 @@
+h1{
+  color: #ff0000;
+}
+#turnblue{
+  background-color: blue;
+}
+.turngreen{
+  color: green;
+  background-color: yellow;
+}
+a{
+  color: darkgreen;
+}
+a:hover{
+  color: orange;
+}
+footer{
+  background-color: lightgreen;
+}
+.turnred{
+  color: red;
+}
+#art{
+  background-color: lightblue;
+}
