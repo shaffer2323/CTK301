@@ -1,0 +1,40 @@
+a{
+  text-decoration: none;
+  color: green;
+}
+a:hover{
+  text-decoration: underline;
+  color: red;
+}
+header{
+  color: navy;
+  background-color: lightblue;
+}
+h1{
+  color: white;
+}
+h2{
+  color: blue;
+}
+.redtext{
+  color: red;
+}
+#greenhighlight{
+  background-color: lightgreen;
+}
+h3{
+  background-color: yellow;
+}
+h4{
+  color: yellow;
+  background-color: green;
+}
+h5{
+  color: red;
+}
+footer{
+  background-color: yellow;
+}
+.bluetext{
+  color: blue;
+}
