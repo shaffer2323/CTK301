@@ -1,0 +1,36 @@
+header{
+  background-color: lightblue;
+  text-align: center;
+}
+nav{
+  background-color: lightgreen;
+}
+h1{
+color: blue;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: darkblue;
+}
+h4{
+  color: purple;
+}
+
+a{
+  color: red;
+}
+
+a:visited{
+  color: green;
+}
+a:hover{
+  color: yellow;
+}
+.pages{
+  color: red;
+}
+#content{
+  background-color: pink;
+}
