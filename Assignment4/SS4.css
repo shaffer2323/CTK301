@@ -1,0 +1,60 @@
+header{
+  color: orange;
+  text-align: center;
+  font-style: italic;
+  font-family: sans-serif;
+  font-weight: normal;
+}
+body{
+  font-family: sans-serif;
+  background-color: #white;
+  background-image: url(isulogo.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+
+}
+nav{
+  background-color: lightgreen;
+  font-family: sans-serif;
+}
+#centered {
+text-align: center;
+}
+#textright{
+  text-align:right;
+}
+#justified{
+  text-align: justify;
+}
+.imageOutline{
+border: 10px solid black;
+padding: 10px 10px 10px 10px;
+margin: 20px 20px 20px 20px;
+background-color: white;
+}
+h2{
+  color: blue;
+}
+h3{
+  color: darkblue;
+}
+h4{
+  color: purple;
+}
+
+a{
+  color: red;
+}
+
+a:visited{
+  color: green;
+}
+a:hover{
+  color: yellow;
+}
+.pages{
+  color: red;
+}
+#content{
+  background-color: pink;
+}
