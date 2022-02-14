@@ -1,0 +1,27 @@
+nav ul{
+  border: 0px solid red;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+ border: 1px solid red;
+ width: 200px;
+ margin: 10px;
+ padding:0px;
+ display: inline-block;
+ background-color: #cc0000;
+}
+nav li a{
+background-image: linear-gradient(to left top, #65e016, #19ec6f, #00f5ab, #00fbdb, #0affff);  color: white;
+  text-decoration: none;
+  display:block;
+  padding:10px;
+  border: 0px solid black;
+}
+nav li a:hover{
+  background-image: linear-gradient(to right bottom, #65e016, #19ec6f, #00f5ab, #00fbdb, #0affff);
+  color: white;
+  text-decoration: none;
+  display:block;
+}
