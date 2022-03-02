@@ -1,0 +1,116 @@
+body {
+  background-color: #999999;
+}
+header{
+  font-family: helvetica;
+  color: lightblue;
+  background-image: linear-gradient(to bottom, #198df6, #136fd7, #0e53b7, #093797, #031c78);
+
+}
+h1{
+  margin: 15px;
+}
+h2{
+  color:blue;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom:2px solid blue;
+}
+h1 a{
+  color: lightblue;
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: none;
+}
+h1 a:hover{
+  color: blue;
+  font-weight: normal;
+  font-style: italic;
+  text-decoration: none;
+}
+nav ul{
+  border: 0px solid red;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  list-style-type: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+nav li {
+ border: 0px solid black;
+ width: auto;
+ margin: 10px;
+ padding:0px;
+ display: inline-block;
+ background-image: linear-gradient(to bottom, #198df6, #136fd7, #0e53b7, #093797, #031c78);
+}
+nav li a{
+background-image: linear-gradient(to bottom, #198df6, #136fd7, #0e53b7, #093797, #031c78);
+  color: lightblue;
+  text-decoration: none;
+  font-weight: bold;
+  display:block;
+  padding:10px;
+  border: 0px solid black;
+}
+nav li a:hover{
+  background: blue;
+  color: lightblue;
+  text-decoration: none;
+  display:block;
+}
+main{
+  background-color: white;
+  border: 0px solid darkblue;
+  margin: 15px;
+}
+#imageL{
+  float:left;
+  margin-right: 24px;
+  margin-bottom: 24px;
+  }
+#imageR{
+  float:right;
+  margin-left: 24px;
+  margin-bottom: 24px;
+}
+#imageGrid{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+
+  margin-right: 24px;
+  margin-bottom: 24px;
+
+}
+main a{
+  text-decoration: none;
+  color: red;
+  font-weight: bold;
+}
+main a:hover{
+  text-decoration: underline;
+  color: green;
+  font-weight: bold;
+}
+main img{
+  border: 5px solid darkblue;
+}
+footer{
+  border-top: 3px solid darkblue;
+  background-color: red;
+  padding:3px;
+}
+.Bolded{
+  margin-left: 10px;
+  font-weight: bold;
+  text-align: justify;
+}
+#wrapper {
+  margin: 1em auto;
+  padding: 0;
+  width: 960px;
+  border: 3px solid darkblue;
+  background-color: #ffffff;
+  display: grid;
+}
